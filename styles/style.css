@@ -1,0 +1,150 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.container {
+  width: 1300px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+header {
+  border-bottom: 1px solid #d8e3fe;
+}
+
+.header {
+  display: flex;
+  width: 1090px;
+  align-items: center;
+  background-color: #fff;
+}
+
+.logo {
+  display: flex;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  background-color: #5e81fe;
+  margin-right: 73px;
+}
+
+.navigation-list {
+  display: flex;
+}
+
+.navigation-link {
+  padding-top: 33px;
+  padding-bottom: 33px;
+  display: block;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #697ca6;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: #6188ff;
+}
+
+.navigation-item:not(:last-child) {
+  margin-right: 42px;
+}
+
+.header-icon-list {
+  display: flex;
+  margin-left: auto;
+  margin-right: 44px;
+  justify-content: baseline;
+}
+
+.header-icon-item:not(:last-child) {
+  margin-right: 38px;
+}
+
+.icon-header {
+  fill: #b6bac7;
+}
+
+.icon-header:hover,
+.icon-header:focus {
+  transform: scale(1.2);
+  fill: #6188ff;
+}
+
+.icon-header.facebook {
+  width: 9px;
+  height: 17px;
+}
+
+.icon-header.telegram {
+  width: 15px;
+  height: 12px;
+}
+
+.icon-header.twitter {
+  width: 16px;
+  height: 14px;
+}
+
+.icon-header.m {
+  width: 16px;
+  height: 13px;
+}
+
+.header-btn {
+  justify-content: right;
+  width: 113px;
+  height: 43px;
+  background: #d2e1ff;
+  border-radius: 2px;
+  border: 0;
+  color: #3a79ff;
+  font-family: "Quicksand", sans-serif;
+  font-style: 700;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: calc(16 / 13);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #3a79ff;
+}
