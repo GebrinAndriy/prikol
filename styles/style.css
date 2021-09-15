@@ -146,5 +146,101 @@ header {
   align-items: center;
   text-align: center;
   justify-content: center;
-  color: #3a79ff;
+  transition-property: background-color, color;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  cursor: pointer;
+  background-color: #3a79ff;
+  color: #fff;
+}
+
+.hero {
+  background: url(../images/hero-bg.png),
+    linear-gradient(180deg, #f4f7ff 0%, #f1f5ff 100%);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.hero-div {
+  padding-top: 92px;
+  padding-bottom: 102px;
+}
+
+.hero-second-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: calc(12 / 10);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #3d4f9f;
+  margin-bottom: 16px;
+}
+
+.hero-title {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: calc(60 / 48);
+  text-align: center;
+  color: #3d4f9f;
+  margin-bottom: 28px;
+}
+
+.hero-title-bold {
+  font-weight: 500;
+}
+
+.hero-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: calc(29 / 15);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #8d96bd;
+  margin-bottom: 20px;
+}
+
+.hero-btn {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  border: 0;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  transition-property: background-color;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
+}
+
+.hero-btn-icon {
+  fill: #5e81ff;
+  width: 10px;
+  height: 11px;
+  display: block;
+  transition-property: fill;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #5e81fe;
+}
+
+.hero-btn:hover .hero-btn-icon,
+.hero-btn:focus .hero-btn-icon {
+  fill: #fff;
 }
