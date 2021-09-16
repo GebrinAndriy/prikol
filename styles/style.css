@@ -101,6 +101,9 @@ header {
 
 .icon-header {
   fill: #b6bac7;
+  transition-property: fill, transform;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
 }
 
 .icon-header:hover,
@@ -167,7 +170,8 @@ header {
 
 .hero-div {
   padding-top: 92px;
-  padding-bottom: 102px;
+  padding-bottom: 165px;
+  position: relative;
 }
 
 .hero-second-title {
@@ -243,4 +247,50 @@ header {
 .hero-btn:hover .hero-btn-icon,
 .hero-btn:focus .hero-btn-icon {
   fill: #fff;
+}
+
+.hero-com-icon {
+  width: 92px;
+  height: 63px;
+  position: absolute;
+  bottom: 80px;
+  left: 410px;
+}
+
+.underhero-icon {
+  fill: #d6dae5;
+  width: 117px;
+  height: 28px;
+  transition-property: fill;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
+}
+
+.underhero-icon-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-com-speed-icon {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 438px;
+  bottom: 96px;
+}
+
+.underhero-section {
+  background-color: #fff;
+  padding-top: 61px;
+  padding-bottom: 61px;
+}
+
+.underhero-icon-list-item {
+  margin-right: 76px;
+}
+
+.underhero-icon-list-item:hover .underhero-icon,
+.underhero-icon-list-item:focus .underhero-icon {
+  fill: #5982e7;
 }
